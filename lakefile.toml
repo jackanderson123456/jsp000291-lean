@@ -1,0 +1,37 @@
+name = "JSP000291"
+defaultTargets = ["Audit"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f"
+
+[[lean_lib]]
+name = "FloorPowers"
+
+[[lean_lib]]
+name = "Boundary"
+
+[[lean_lib]]
+name = "ParameterSet"
+
+[[lean_lib]]
+name = "RationalBounds"
+
+[[lean_lib]]
+name = "Interpolation"
+
+[[lean_lib]]
+name = "Nodes"
+
+[[lean_lib]]
+name = "Counterexample"
+
+[[lean_lib]]
+name = "Prize"
+
+[[lean_lib]]
+name = "Occurrences"
+
+[[lean_lib]]
+name = "Audit"
